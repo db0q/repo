@@ -1,0 +1,140 @@
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
+      <link href="./style.css" rel="stylesheet" />
+      <script src="https://cdn.tailwindcss.com"></script>
+  <body class="text-red-100 min-w-full">
+    <div class=" h-34rem w-full font-sans relative">
+     <nav class=" w-4/5 m-auto p-5 flex justify-between items-center ">
+      <img src="./imgs/logo.png" alt="logo" class="cursor-pointer w-24 hover:w-28">
+      <ul>
+        <li class="inline-block mx-4 "><a href="" class="text-stone-600 hover:text-red-500">About me</a></li>
+        <li class="inline-block mx-4 "><a href="#my-projects" class="text-stone-600 hover:text-red-500">My Projects</a></li>
+        <li class="inline-block mx-4  "><a href="#hireme" class="text-stone-600 hover:text-red-500">Hire me</a></li>
+      </ul>
+     </nav>
+     <div class="about-me mt-44 ml-24">
+        <h1 class="text-6xl text-stone-600 font-semibold"> Hey,I'm <span class="text-red-500">Mustafa</span></h1>
+       
+        <p class="text-base mb-4 mt-4 text-stone-600">this is my offical portfolio website 
+          to show all my projects <br>related to<span class="text-red-600 font-bold"> front-end</span>  developer</p>
+          <a class="bg-red-500 text-slate-50 px-4 py-2.5  rounded-md inline-block my-5 hover:bg-red-700 " href="#">
+            My resume
+            <i class="fa-solid fa-download text-gray-400 text-base  p-2"></i>
+            </a>
+          <div class="w-1/4 border-t-2 flex-column justify-between algin-center">
+            <h4 class="text-xl mb-4 mt-4 text-stone-600 " id="myskills">my skills</h4>
+            <div class="p-2"> 
+              <i class="fab fa-html5 text-blue-400 text-5xl  p-2" ></i> 
+              <i class="fa-brands fa-css3-alt text-orange-400 text-5xl p-2"></i>
+              <i class="fa-brands fa-square-git text-red-400 text-5xl p-2"></i>
+              <i class="fa-brands fa-github text-indigo-700 text-5xl p-2"></i>
+            </div>
+            <div class="p-2">
+              <i class="fa-brands fa-js  text-yellow-400 text-5xl p-2"></i>
+              <i class="fa-brands fa-python text-indigo-700 text-5xl p-2"></i>
+              <i class="fa-brands fa-node text-lime-600 text-5xl p-2"></i>
+              <i class="fa-brands fa-react text-blue-400 text-5xl  p-2"></i>
+            </div>
+  
+          </div>
+         
+            
+        
+     
+        </div>
+     <div class="img-container" >
+      
+      <img src="./imgs/pattern.png" class="back-img">
+     
+     <img src="./imgs/myPhoto.png" alt="myPhoto" class="my-img">
+   
+     </div>
+  
+    </div>
+    
+    <div class="mt-40 ml-24 text-6xl"> <h2 class="text-5xl" >My projects</h2></div>
+  
+    <div class="projects-cards" id="my-projects">
+   <div>
+    <a class="card card1 block " href="https://db0q.github.io/Shop-Icecream/">
+      <h5 class="bg-slate-50 rounded-md">Icecream-shop</h5>
+      <p>relative website ,build with team work </p>
+    </a>
+   </div>
+    <div>
+      <a class="card card2 block " href="https://db0q.github.io/phase-0-html-riyadh-blog-lab/">
+        <h5 class="bg-slate-50 rounded-md">Riyadh blog</h5>
+        <p>website contain Riyadh city pictuers and talk about it</p>
+      </a>
+      
+   
+    </div>
+   
+    
+      <div>
+        <a class="card card3 block " href="https://db0q.github.io/phase-0-html-album-cover-lab/">
+          <h5 class="bg-slate-50 rounded-md">album cover</h5>
+          <p>album cove talk about beautiful new song for <br>
+             fameus singer called PHARRELL WILLIAMS</p>
+            
+          </a>
+      </div>
+     
+        <div>
+          <a class="card card4 block " href="https://db0q.github.io/phase-0-css-kitten-lab/">
+            <h5 class="bg-slate-50 rounded-md">kitten lab</h5>
+            <p>cute kittens move and put into container  </p>
+          
+           </a>
+        </div>
+   
+     
+    
+    </div>
+   <div class="  w-full  flex justify-center algin-center text-xl text-stone-600 font-semibold" id="hireme">
+   
+      <form class=" bg-red-300 flex-column justify-center algin-center p-5 m-4 border-2 w-1/2 rounded-md" action="https://formsubmit.co/el/padewe" method="POST">
+        <h1 class=" p-2  m-4 rounded-md w-4/5 border-b-2">Contact me</h1>
+      <input class=" p-2 border-2 m-4 rounded-md w-4/5" type="text" name="Name" placeholder="Full Name"
+      required>
+      <input class=" p-2 border-2 m-4 rounded-md w-4/5" type="email" name="Email" placeholder="Email" required />
+      <select class=" p-2  border-2 m-4 rounded-md w-4/5" name="Continent">
+      <option> Europe</option>
+      <option>Asia</option>
+      <option>Australia</option>
+      <option>Africa</option>
+      <option>North America</option>
+      <option>South America</option>
+      </select>
+      <textarea class="p-2 border-2 m-4 rounded-md w-4/5" name= "Message" placeholder="message"
+      required></textarea>
+      <button class="p-2 border-2 m-4 flex justify-center rounded-md w-2/5" type="submit" >Send</button>
+      </form>
+  
+      
+  
+  
+  
+  
+  
+   </div>
+  
+    <footer class=" h-30px p-4 flex justify-around items-center  bg-red-500 rounded-md">
+      <a href="https://www.linkedin.com/in/the-mstafa/"> <i class="fab fa-linkedin-in text-3xl text-slate-50 "></i></a>
+      <a href="https://www.facebook.com/Rahienn"> <i class="fab fa-facebook-f text-3xl text-slate-50"></i></a>
+      <a href='https://www.instagram.com/themstafa/'><i class="fab fa-instagram text-3xl text-slate-50"></i></a>
+  
+      </a>
+     
+     
+      
+      
+    </footer>
+  </body>
+  </html>
